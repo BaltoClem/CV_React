@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/billGates.jpg" alt="profil-pic" />
+                    <img src="./media/clementDumas.jpg" alt="profil-pic" />
                     <h3>Clément Dumas</h3>
                 </div>
             </div>
@@ -15,25 +15,25 @@ const Navigation = () => {
                 <ul>
                     <li>
                         <NavLink exact to="/" activeClassName="navActive">
-                            <i className="fas fa-home"></i>
+                        <lord-icon trigger="loop" src="https://cdn.lordicon.com/etqbfrgp.json"></lord-icon>
                             <span>Accueil</span>
                         </NavLink>
                     </li>
                     <li>
                         <NavLink exact to="/competences" activeClassName="navActive">
-                            <i className="fas fa-mountain"></i>
+                        <lord-icon trigger="loop" src="https://cdn.lordicon.com/gqqykmqo.json" colors="outline:#000000,primary:#7166ee,secondary:#913710,tertiary:#4faef9,quaternary:#fad3d1"></lord-icon>
                             <span>Compétences</span>
                         </NavLink>
                     </li>
                     <li>
                         <NavLink exact to="/portfolio" activeClassName="navActive">
-                            <i className="fas fa-images"></i>
+                        <lord-icon trigger="loop" src="https://cdn.lordicon.com/qfbuijil.json" colors="outline:#121331,primary:#f24c00,secondary:#2ca58d,tertiary:#ebe6ef"></lord-icon>
                             <span>Portfolio</span>
                         </NavLink>
                     </li>
                     <li>
                         <NavLink exact to="/contact" activeClassName="navActive">
-                            <i className="fas fa-address-book"></i>
+                        <lord-icon trigger="loop" src="https://cdn.lordicon.com/gzmgulpl.json" colors="outline:#ffffff,primary:#c69cf4,secondary:#ebe6ef"></lord-icon>
                             <span>Contact</span>
                         </NavLink>
                     </li>
