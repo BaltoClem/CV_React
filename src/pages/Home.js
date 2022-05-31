@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div>
             <Navigation />
+            Bienvenue à l'accueil
         </div>
     );
 };
