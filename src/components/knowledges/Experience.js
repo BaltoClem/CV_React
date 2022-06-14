@@ -2,7 +2,6 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <div>
             <div className="experience">
                 <h3>Experience</h3>
                 <div className="exp-1">
@@ -22,7 +21,6 @@ const Experience = () => {
                         culpa assumenda maxime hic vero!</p>
                 </div>
             </div>
-        </div>
     );
 };
 
