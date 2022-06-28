@@ -12,10 +12,7 @@ const Contact = () => {
                     <h1>Contactez-moi</h1>
                     <ul>
                         <li>
-                        <lord-icon
-                            src="https://cdn.lordicon.com/jqnthkou.json"
-                            trigger="loop">
-                        </lord-icon>
+                        <i className="fas fa-map-location-dot"></i>
                             <span>Amiens</span>
                         </li>
                         <li>
@@ -38,12 +35,24 @@ const Contact = () => {
                         </li>
                     </ul>
                 </div>
-
                 <div className="socialNetwork">
                     <ul>
-                        <li>
-
-                        </li>
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                            <h4>LinkedIn</h4>
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                            <h4>GitHub</h4>
+                            <i className="fab fa-github"></i>
+                        </a>
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                            <h4>Twitter</h4>
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                            <h4>CodePen</h4>
+                            <i className="fab fa-codepen"></i>
+                        </a>
                     </ul>
                 </div>
             </div>
