@@ -45,10 +45,13 @@ $minHeight: 95vh;
 }
 
 body{
-    margin: 1rem auto;
-    max-width: 1200px;
+    margin: 1.45rem auto;
+    max-width: 1200px; //1200px si problème;
     font-family: $font-1;
     color: $black;
+    background:url(../media/coding.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 button{
